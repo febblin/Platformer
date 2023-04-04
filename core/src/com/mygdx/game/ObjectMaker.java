@@ -18,7 +18,7 @@ public class ObjectMaker {
         bodyDef.active = true; //активно ли тело
         bodyDef.allowSleep = true; //разрешать телу спать
         bodyDef.bullet = false;
-        bodyDef.gravityScale = 1.f;  //масштаб гравитации
+        bodyDef.gravityScale = 2.f;  //масштаб гравитации
         bodyDef.position.set(tmpPosition); //позиция
         bodyDef.type = bodyType;
         bodyDef.angle = MathUtils.degreesToRadians*angle;
