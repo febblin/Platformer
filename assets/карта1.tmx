@@ -1,40 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="34" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
- <tileset firstgid="1" name="Full-Retro-Lines-Tiles" tilewidth="16" tileheight="16" tilecount="480" columns="20">
-  <image source="Full-Retro-Lines-Tiles.png" trans="1c1b1b" width="320" height="384"/>
-  <tile id="377">
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="37" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="48">
+ <tileset firstgid="1" name="monochrome_tilemap_transparent" tilewidth="16" tileheight="16" spacing="1" tilecount="400" columns="20">
+  <image source="monochrome_tilemap_transparent.png" width="339" height="339"/>
+  <tile id="163">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1.02073" y="9.01648" width="13.7799" height="2.12653"/>
+   </objectgroup>
    <animation>
-    <frame tileid="335" duration="100"/>
-    <frame tileid="326" duration="100"/>
-    <frame tileid="328" duration="100"/>
-    <frame tileid="330" duration="100"/>
+    <frame tileid="163" duration="100"/>
+    <frame tileid="164" duration="100"/>
+    <frame tileid="165" duration="100"/>
    </animation>
   </tile>
-  <tile id="378">
+  <tile id="164">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1.02073" y="4.0404" width="14.0776" height="2.97714"/>
+   </objectgroup>
+  </tile>
+  <tile id="165">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1.02073" y="0.0425306" width="13.9075" height="2.97714"/>
+   </objectgroup>
+  </tile>
+  <tile id="203">
    <animation>
-    <frame tileid="325" duration="100"/>
-    <frame tileid="167" duration="100"/>
-    <frame tileid="169" duration="100"/>
-    <frame tileid="171" duration="100"/>
+    <frame tileid="203" duration="100"/>
+    <frame tileid="183" duration="100"/>
    </animation>
   </tile>
-  <tile id="396">
+  <tile id="229">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.212653" y="1.02073">
+     <polygon points="0,0 1.78628,-0.0425306 7.61297,0.935673 9.52685,1.78628 11.7384,3.91281 12.9293,4.93355 13.5673,6.71983 14.7581,12.9718 15.0133,15.5237 0.255183,15.2685 -0.212653,14.1201"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="289">
    <animation>
-    <frame tileid="185" duration="100"/>
-    <frame tileid="205" duration="100"/>
-    <frame tileid="225" duration="100"/>
-    <frame tileid="245" duration="100"/>
+    <frame tileid="289" duration="100"/>
+    <frame tileid="309" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="369">
+   <animation>
+    <frame tileid="369" duration="100"/>
+    <frame tileid="370" duration="100"/>
    </animation>
   </tile>
  </tileset>
- <layer id="1" name="Слой тайлов 1" width="34" height="20">
+ <layer id="3" name="Слой тайлов 1" width="37" height="25">
   <data encoding="base64" compression="zlib">
-   eJzt1MkNwjAQheFxE9AD9ABiK4EAJbA1QEhCwnbiwHanVH4kjrEt2RYiiCd9kj3ROHMaEXNaIo8GatCdLU8ESZv/NFGH7vyJOf75vnSUSBc99DFQfjXXDOmNMMIYE+VXc82U3hnmWGCp/GquSehNkWGDXPnVXHOm94Irbrgrv1oVs2LuuKKz/1pyFNhihz0OOGKNBCliw9307XXP3rWyui2h92kk5WwJvU9PGraE3qeuc4Tep65zhN6npjme3IOCsQ==
+   eJxjYBhY8GOA7ccGRt1EHBjMbnoCxE+heKABDyPEHbxA+tlAOwYL+DXQDsACRt1EHMDnpiJG0s0jRg8hNcSEEzluo8QMUuPuFIX2EQNIdZMIda3HCujhJn4S1dPSTUpQWplEO2jppq1AvA2It5NoBz43CUBp5LAXQZPDB05C6dMk2oHPTSpQGjns76HJgYASEnsJEJ+B4rtQsftIYmegamB6sNmB7KZwBoaGUCAdBsQDQYdjcRMIgNoKA435qFzejYJRAAIAIbQ1ig==
   </data>
  </layer>
- <layer id="2" name="Слой тайлов 2" width="34" height="20">
+ <layer id="4" name="Слой тайлов 2" width="37" height="25">
   <data encoding="base64" compression="zlib">
-   eJztk0kOgkAQReEQHoJDeBC8g4fwKiruHBcq7hxWDkuHlcMRnPY+Eipia0eNQhPjT16KShXUT35wbcu4MpBPgQ8HCvjwoGLAj9zN8uxSfegl6EfuyF01l7j9qPdFkosqde9b0n1XcjGttP0vpvXP5Va/kEsjrFWoQV3TR3d1809yGYW1DwMYavrorm7+ai5NaEVqoFVY57CApaaXXXn30VxyKVpXSlAG77m9t5Wz7wmk5tKGDnTBj8GHTo7Sj2ECU5gl6EPVGjawhZ0hD3s4wBFOcE74/gUvukuF
+   eJxjYBgFo2AU0AP8oKHZaYwMDOlAnMFImj5K3ZQAtC8RiJOw2FsFFKsG4ho6u6kEaF8pEJdhsbcPKNYPxBPo7KYOoH2dQNxFor34AC3TE7lg1E3YQS0Q1wFxPZQ/GNyEDkaim3qB2BaI+0nQQ49wCiRRPS43KVGxvKGWm7wGoZsGEoy6iTgw6qbhAQCZpx4n
   </data>
  </layer>
+ <objectgroup id="5" name="земля">
+  <object id="21" name="Шаблон земли" x="21.75" y="-36.75" width="47.5" height="26.5">
+   <properties>
+    <property name="bodyType" value="StaticBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="false"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+  <object id="24" x="15.5247" y="303.971" width="556.5" height="2.13043">
+   <properties>
+    <property name="bodyType" value="StaticBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="false"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+  <object id="26" x="320.295" y="96.0606" width="47.4091" height="47.6364">
+   <properties>
+    <property name="bodyType" value="StaticBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="false"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+  <object id="27" x="208.021" y="111.979" width="47.7708" height="47.875">
+   <properties>
+    <property name="bodyType" value="StaticBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="false"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+  <object id="28" x="482.417" y="195.333" width="41.8333" height="6">
+   <properties>
+    <property name="bodyType" value="StaticBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="false"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+  <object id="29" x="335.708" y="256.125" width="48.0833" height="3">
+   <properties>
+    <property name="bodyType" value="StaticBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="false"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+  <object id="30" x="160.083" y="192.021" width="15.8958" height="1.97917">
+   <properties>
+    <property name="bodyType" value="StaticBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="false"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+  <object id="31" x="48.2708" y="274" width="15.3958" height="5">
+   <properties>
+    <property name="bodyType" value="StaticBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="false"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+  <object id="42" x="295.917" y="88.4167" width="14.1667" height="14.5">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="false"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+  <object id="46" name="шаблон динамика" x="132.917" y="-29.25" width="14.1667" height="14.5">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="false"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="hero">
+  <object id="11" name="Hero" x="278.333" y="106.333" width="7.5" height="8">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0"/>
+    <property name="gravityScale" type="float" value="1"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="restitution" type="float" value="0"/>
+    <property name="shape" value="box"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
